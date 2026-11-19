@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- wp-security-gates: security sniffs only. Merge into an existing ruleset if the project has one. -->
+<ruleset name="wp-security-gates">
+  <file>.</file>
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+  <exclude-pattern>*/node_modules/*</exclude-pattern>
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+  <arg value="sp"/>
+  <rule ref="WordPress.Security"/>
+  <rule ref="WordPress.DB.PreparedSQL"/>
+  <rule ref="WordPress.DB.PreparedSQLPlaceholders"/>
+  <rule ref="WordPress.WP.Capabilities"/>
+</ruleset>

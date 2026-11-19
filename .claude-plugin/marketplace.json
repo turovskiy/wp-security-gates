@@ -1,0 +1,18 @@
+{
+  "name": "wp-security-gates",
+  "owner": {
+    "name": "Oleksii Turovskyi"
+  },
+  "metadata": {
+    "description": "Security gates for AI agents writing WordPress code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wp-security-gates",
+      "source": "./",
+      "category": "security",
+      "description": "Security gates for an AI agent writing WordPress code: escaping, nonces, capabilities, prepared SQL, tests first, PHPCS gate."
+    }
+  ]
+}

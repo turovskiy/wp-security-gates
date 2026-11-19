@@ -1,0 +1,7 @@
+# Local session notes.
+.session/
+# Test harness cache and dependencies.
+/tests/.cache/
+/tests/vendor/
+/tests/composer.lock
+/tests/.phpunit.result.cache

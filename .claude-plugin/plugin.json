@@ -1,0 +1,21 @@
+{
+  "name": "wp-security-gates",
+  "version": "1.0.0",
+  "description": "Security gates for an AI agent writing WordPress code (PHP plugins, themes, REST, admin-ajax): escaping, nonces, capabilities, prepared SQL, plus tests and a PHPCS gate. Complements ub-mode and other TDD skills.",
+  "author": {
+    "name": "Oleksii Turovskyi",
+    "url": "https://github.com/turovskiy"
+  },
+  "homepage": "https://github.com/turovskiy/wp-security-gates",
+  "repository": "https://github.com/turovskiy/wp-security-gates",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "security",
+    "phpcs",
+    "wpcs",
+    "phpunit",
+    "tdd",
+    "ub-mode"
+  ]
+}

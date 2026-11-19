@@ -1,0 +1,15 @@
+{
+  "name": "turovskiy/wp-security-gates-tests",
+  "description": "Harness that proves the skill templates go red on vulnerable code and green on safe code.",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^9.6",
+    "yoast/phpunit-polyfills": "^4.0",
+    "wp-coding-standards/wpcs": "^3.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+  },
+  "config": {
+    "platform": { "php": "8.2.0" },
+    "allow-plugins": { "dealerdirect/phpcodesniffer-composer-installer": true }
+  }
+}
